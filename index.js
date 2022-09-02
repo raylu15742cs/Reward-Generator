@@ -2,7 +2,7 @@ let generate = () => {
     let current = Math.floor(Math.random() * 100)
 
     let target = document.getElementById("main")
-    if(target > 90) {
+    if(current > 90) {
         target.innerHTML += `You are Rewarded ${current}`
     }else {
         target.innerHTML += `Try Again Tomorrow ${current}`
