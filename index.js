@@ -3,7 +3,7 @@ let generate = () => {
 
     let target = document.getElementById("main")
     if(current > 90) {
-        target.innerHTML += `<h1>You are Rewarded ${current}</h1>`
+        target.innerHTML += `<h1>You are Rewarded ${current} , bubba :) </h1>`
     }else {
         target.innerHTML += `<h1>Try Again Tomorrow ${current}</h1>`
     }
