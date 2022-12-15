@@ -1,5 +1,5 @@
 let generate = () => {
-    let current = Math.floor(Math.random() * 10 + 90)
+    let current = Math.floor(Math.random() * 100)
 
     let target = document.getElementById("main")
     if(current >= 90) {
